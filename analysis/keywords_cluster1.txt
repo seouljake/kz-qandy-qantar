@@ -1,0 +1,8 @@
+government/state	Государство
+law 			Закон, законность
+deputy			Депутат
+nation			Народ
+interest		Интерес
+reform			Реформа
+initiative		Инициатива
+population		Население

@@ -1,0 +1,4 @@
+rally		Митинг
+crowd		Толпа
+turmoil		Беспорядок
+military	Военный
