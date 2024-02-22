@@ -1,0 +1,2 @@
+# kz-qandy-qantar
+ 
