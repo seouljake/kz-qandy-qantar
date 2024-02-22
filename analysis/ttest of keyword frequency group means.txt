@@ -1,0 +1,8 @@
+keywords with p-value < 0.1
+12 of 84 have p-value < 0.1
+
+# Cluster 1: akhorda.kz, khabar.kz, nur.kz
+keywords: government, law, deputy, nation, interest, reform, initiative, population
+
+# Cluster 2: zakon.kz, sputnik.kz, tengrinews.kz
+keywords: rally, crowd, turmoil, military
