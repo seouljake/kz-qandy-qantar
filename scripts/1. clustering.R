@@ -1,10 +1,10 @@
-setwd("C:/Users/seoul/Dropbox/00 technical/github/consulting/kz qandy quantar/")
+setwd("C:/Users/seoul/Dropbox/00 technical/github/kz-qandy-qantar/scripts")
 
 # install.packages("readxl")
 # library("readxl")
 
 # Replace 'your_file.csv' with the actual file path or URL
-file_path <- "data/heatmap.csv"
+file_path <- "../data/heatmap.csv"
 
 # Read the CSV file into a data frame
 dat_raw <- read.csv(file_path,fileEncoding = "UTF-8-BOM")
@@ -46,6 +46,22 @@ plot(hclust_result, main = "Hierarchical Clustering Dendrogram")
 
 # Close the TIFF device
 # dev.off()
+
+
+
+
+# Set the file path for the JPEG file
+jpeg_file_path <- "../analysis/dendrogram.jpeg"
+
+# Open a JPG device
+jpeg(jpeg_file_path, width = 800, height = 600, quality = 100)
+
+# Your plot code here (again)
+plot(hclust_result, main = "Hierarchical Clustering Dendrogram")
+
+# Close the JPEG device
+dev.off()
+
 
 
 # Cut the tree to create clusters
