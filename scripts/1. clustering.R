@@ -125,5 +125,8 @@ dat_raw$topic
 dat <- rbind(dat,dat_raw$topic)
 
 # sort by pvalues, from smallest to largest
-d <- dat[, order(dat["pvalue", ])]
+d <- t(dat[, order(dat["pvalue", ])])
+d
 
+# export data
+write.csv(d, "../analysis/keyword ttests.csv")
