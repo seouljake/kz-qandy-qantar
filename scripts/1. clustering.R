@@ -27,6 +27,9 @@ class(dat)
 dist_matrix <- dist(dat, method = "euclidean", diag = TRUE, upper = TRUE)
 dist_matrix
 
+# heatmap
+heatmap(as.matrix(dist_matrix))
+
 # Perform hierarchical clustering
 hclust_result <- hclust(dist_matrix, method = "complete")
 
