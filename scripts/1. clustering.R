@@ -1,10 +1,11 @@
+# set working directory
 setwd("C:/Users/seoul/Dropbox/00 technical/github/kz-qandy-qantar/scripts")
 
 # install.packages("readxl")
 # library("readxl")
 
 # Replace 'your_file.csv' with the actual file path or URL
-file_path <- "../data/heatmap.csv"
+file_path <- "../data/keyword frequencies.csv"
 
 # Read the CSV file into a data frame
 dat_raw <- read.csv(file_path,fileEncoding = "UTF-8-BOM")
